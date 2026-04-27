@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello Git Demo 🚀"
+    return "Hello GitHub Demo 🚀"
 
 if __name__ == "__main__":
     app.run(debug=True)
